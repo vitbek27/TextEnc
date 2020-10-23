@@ -59,6 +59,11 @@ artifacts/
 # StyleCop
 StyleCopReport.xml
 
+# Igonre .exe, .dll, .pdb files
+!*.exe
+!*.dll
+!*.pdb
+
 # Files built by Visual Studio
 *_i.c
 *_p.c
